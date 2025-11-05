@@ -287,6 +287,146 @@
 #    print("Du måste sange ett namn för att spara spelet!")
 
 #15
-game_over = input("Hur många liv har du? ")
-if game_over == 0:
-    print("Game Over")
+#game_over = input("Hur många liv har du? ")
+#if game_over == 0:
+#    print("Game Over")
+#else:
+#    print("Keep on truckin'!")
+
+#16
+#forbidden = ("kniv bomb").split(" ")
+#security = input("Vad har du i väskan? ")
+#if any(word in security for word in forbidden):
+#    print("Säkerhetskontroll! Du stoppas!")
+#else:
+#    print("Nemas problemas")
+
+#17
+#postal = input("Vad är ditt postnummer? ")
+#if postal.isdigit:
+#    print("Giltigt format")
+
+#18
+#name = input("Vad är ditt namn? ")
+#if name.isalpha():
+#    print("Giltigt format")
+#else:
+#    print("Ett namn får inte innehålla siffror eller tecken.")
+
+#19
+#password = input("Skriv in ett lösenord: ")
+#if len(password) < 8:
+#    print("Lösenordet är för kort! Minst 8 tecken krävs!")
+
+#20
+#action = input("Vad väljer du? (attack/försvar/magi) ")
+#if action == "attack":
+#    print("Du svingar ditt svärd!")
+#elif action == "försvar":
+#    print("Du höjer din sköld!")
+#elif action == "magi":
+#    print("Du kastar en formel!")
+#else:
+#    print("Ogiltigt val")
+
+########################################################################
+# Block 4
+# for, while, range & break
+########################################################################
+
+#1
+#for i in range(5):
+#    print("Abracadabra!")
+
+#2
+#for i in range(5):
+#    print("Startar nivå",(i+1))
+
+#3
+#code = "LÅST"
+#for i in code:
+#    print(i)
+
+#4
+#for i in range(10, 0, -1):
+#    print("bränslenivå",(i))
+
+#5
+#height =  0
+#
+#while height < 5:
+#    print(f"Höjd: {height}")
+#    height += 1
+
+#6
+#while True:
+#    password = input("Vad är lösenordet? ")
+#    if password == "exit":
+#        break
+#    else:
+#        print("Försök igen")
+
+#7
+#engine = range(10+1)
+#rpm = [x for x in engine if x % 2 == 0]
+#print(rpm)
+
+#8
+#for i in range(1, 11):
+#    if i % 3 == 0:
+#        print(i)
+
+#9
+#magic = 20
+#spell = 5
+#while True:
+#    magoo = input("Kasta formel? ja/nej: ").strip()
+#    if magoo.strip().lower() == "ja":
+#        magic -= spell
+#        print(f"Du har {magic} kvar.")
+#    elif magoo.strip().lower() == "nej":
+#        print("Avslutar.")
+#        break
+#    else:
+#        print("Svara ja eller nej.")
+
+#10
+#cheer = int(input("Hur många gånger ska jag heja? "))
+#for _ in range(cheer):
+#    print("Heja!")
+
+#11
+#while True:
+#    password = input("Skriv ett säkert lösenord: ")
+#    if len(password) < 6:
+#        print("För kort lösenord, försök igen. ")
+#    else:
+#        print("Säkert lösenord.")
+#        break
+
+#12
+#schema = "måndag tisdag onsdag"
+#dagar = schema.split(" ")
+#for dag in dagar:
+#    print(dag)
+
+#13
+#for i in range(5, 0, -1):
+#    print(i, end = " ")
+
+#14
+#while True:
+#    game = input("Är du redo att starta spelet? ")
+#    if game.__contains__ ("ja"):
+#        break
+
+#15
+#while True:
+#    user_input = input("Skriv ett ord: ")
+#    if user_input.__contains__ ("a"):
+#        print("Hittade ett 'a'!")
+#        break
+#    else:
+#        print("Prova ett nytt ord")
+
+#16
