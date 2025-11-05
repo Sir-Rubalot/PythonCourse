@@ -430,3 +430,18 @@
 #        print("Prova ett nytt ord")
 
 #16
+#while True:
+#    monster_defeated = input("Attackera? Ja/nej: ")
+#    if monster_defeated.__contains__("ja"):
+#        print("Du vann!")
+#        break
+#    else:
+#        print("Kampen fortsätter.")
+
+#17
+#total_score = 0
+#for i in range(5):
+#    total_score += 10
+#    print(total_score)
+
+#18
